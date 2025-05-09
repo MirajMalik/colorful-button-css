@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: aliceblue;
+}
+ .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+   
+
+ }
+
+ button{
+    padding: 20px 50px;
+    border: 2px red solid;
+    border-radius: 10px;
+    text-shadow: 10px;
+    font-size: larger;
+    font-weight: 900;
+    color:white;
+    cursor: pointer;
+ }
+
+ button:hover{
+    background-color: white;
+    color: black;    
+ }
